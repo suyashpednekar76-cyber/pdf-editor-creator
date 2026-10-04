@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #f8f8f8;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: #6e6b7b;
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #5e5873;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Thin scrollbars for thumbnail strips */
+.scroll-thin::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: #d8d6de;
+  border-radius: 9999px;
+}
